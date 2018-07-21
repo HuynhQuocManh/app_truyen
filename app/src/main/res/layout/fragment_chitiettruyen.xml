@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imagetruyen"
+        android:layout_width="100dp"
+        android:layout_height="130dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/hinhtruyen" />
+
+    <TextView
+        android:id="@+id/textviewTentruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@+id/imagetruyen"
+        android:text="Ngạo"
+        android:textColor="#070707"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textviewtacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewTentruyen"
+        android:textSize="10sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imagetruyen"
+        android:text="tác giả"
+        android:textColor="#060606" />
+
+    <TextView
+        android:id="@+id/texview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttonxem"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Chi Tiết Chuyện"
+        android:layout_marginHorizontal="10dp"
+        android:textColor="#26ff00"
+        android:textSize="20sp"/>
+  <ImageView
+      android:scaleType="fitXY"
+      android:layout_alignParentRight="true"
+      android:background="@android:color/transparent"
+      android:src="@drawable/dislike"
+      android:layout_below="@id/textviewtacgia"
+      android:id="@+id/yeuthich"
+      android:layout_marginRight="10dp"
+      android:layout_marginTop="5dp"
+      android:layout_width="20dp"
+      android:layout_height="20dp" />
+    <Button
+        android:id="@+id/buttonxem"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/custombutton"
+        android:layout_below="@id/imagetruyen"
+        android:text="Xem"
+        />
+<ScrollView
+    android:layout_below="@+id/texview"
+    android:layout_width="wrap_content"
+    android:layout_height="100dp">
+    <TextView
+        android:id="@+id/textviewgioithieu"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="#f8000000"
+        android:layout_below="@+id/texview"
+        android:layout_marginTop="5dp" />
+</ScrollView>
+
+</RelativeLayout>

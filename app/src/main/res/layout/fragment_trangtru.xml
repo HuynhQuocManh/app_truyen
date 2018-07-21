@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:scrollbars="none"
+    android:background="#7500ffd9">
+
+    <LinearLayout
+        android:id="@+id/linearlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <fragment
+            android:id="@+id/fragment_gioithieu"
+            android:name="com.huynhquocmanh.apptruyen.Fragment.Fragment_gioithieu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="@string/Truyenmoi"
+            android:textColor="#9C27B0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragment_truyenmoi"
+            android:name="com.huynhquocmanh.apptruyen.Fragment.Fragment_truyenmoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="@string/chuongmoi"
+            android:textColor="#9C27B0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <fragment
+            android:id="@+id/fragmentchuongmoi"
+            android:name="com.huynhquocmanh.apptruyen.Fragment.Fragment_chuongmoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:text="Truyện Hot"
+            android:textColor="#9C27B0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <fragment
+            android:id="@+id/fragment3"
+            android:name="com.huynhquocmanh.apptruyen.Fragment.Fragment_dathich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+
+</ScrollView>

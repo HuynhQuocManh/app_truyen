@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageviewnenquangcao"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="#ec0202"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageviewnenquangcao"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textviewtentruyen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="toi thay hoa vang tren co xanh"
+            android:textColor="#00ff15"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/textviewtacgia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="tac gia"
+            android:textColor="#00ff15"
+            android:textSize="20dp" />
+    </LinearLayout>
+</RelativeLayout>

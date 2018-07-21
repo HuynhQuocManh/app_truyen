@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="100dp"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/hinhtruyen" />
+
+    <TextView
+        android:id="@+id/tentruyen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/imageview"
+        android:text="Thần Mộ Chi Huyết Đế"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/tacgia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tentruyen"
+        android:layout_toRightOf="@+id/imageview"
+        android:text="Tác Giả"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/chuong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tacgia"
+        android:layout_toRightOf="@+id/imageview"
+        android:text="Chương 10"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
